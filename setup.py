@@ -24,7 +24,7 @@ setuptools.setup(
     python_requires='>= 3.6',
     install_requires=[
         'requests',
-        'aiohttp ~= 3.7.4'
+        'aiohttp'
     ],
     extras_require={
         'test': [
